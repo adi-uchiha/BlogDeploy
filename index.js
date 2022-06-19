@@ -8,8 +8,9 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
-const cloudinary = require("./utils/cloudinary")
-const upload = require("./utils/multer");
+
+const cloudinary = require("./imgjs/cloudinary")
+const upload = require("./imgjs/multer");
 const User = require("./models/User");
 
 dotenv.config();
