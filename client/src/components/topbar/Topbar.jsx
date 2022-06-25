@@ -13,7 +13,6 @@ export default function Topbar() {
   return (
     <div className="top">
        <div className="topLeft"> 
-       <i className="topIcon fa-brands fa-facebook-square"></i>
 
        <a href="https://facebook.com" target="_blank">
        <i className="topIcon fa-brands fa-facebook-square"></i>       
