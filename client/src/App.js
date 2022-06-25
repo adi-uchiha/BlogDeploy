@@ -12,6 +12,9 @@ import {
   Route,
 } from "react-router-dom";
 import { Context } from "./context/Context";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+
 
 
 function App() {
@@ -26,6 +29,8 @@ function App() {
       <Route path="home" element={<Home />} />
       <Route path="register" element={<Register />} />
       <Route path="login" element={<Login />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="settings" element={user?<Settings />:<Login />} />
       <Route path="post/:postId" element={<Single />} />
       <Route path="/write" element={user ? <Write /> : <Login /> } />

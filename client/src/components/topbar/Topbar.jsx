@@ -14,9 +14,22 @@ export default function Topbar() {
     <div className="top">
        <div className="topLeft"> 
        <i className="topIcon fa-brands fa-facebook-square"></i>
+
+       <a href="https://facebook.com" target="_blank">
+       <i className="topIcon fa-brands fa-facebook-square"></i>       
+       </a>
+       <a href="https://instagram.com" target="_blank">
+       <i className="topIcon fa-brands fa-instagram-square"></i>
+       </a>
+       <a href="https://twitter.com" target="_blank">
        <i className="topIcon fa-brands fa-twitter-square"></i>
+       </a>
+       <a href="https://pinterest.com" target="_blank">
        <i className="topIcon fa-brands fa-pinterest-square"></i>
-       <i className="topIcon fa-brands fa-instagram-square"></i> 
+       </a>
+       <a href="https://github.com/adi-uchiha/Blog" target="_blank">
+       <i className="topIcon fa-brands fa-github-square"></i>
+       </a>
        </div>
        <div className="center">
          <ul className="topList">
