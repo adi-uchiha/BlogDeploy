@@ -7,6 +7,7 @@
     height: 280px;
     border-radius: 7px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .postInfo{
@@ -27,15 +28,15 @@
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 60px;
     cursor: pointer;
 }
 .postDate{
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 13px;
-    margin-top: 15px;
-    color: #999;
+    margin-top: 7px;
+    color: #996;
 }
 .postDes{
     font-family: "Varela Round", sans-serif;

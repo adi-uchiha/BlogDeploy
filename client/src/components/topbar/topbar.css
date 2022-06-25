@@ -32,12 +32,21 @@
     object-fit: cover;
     cursor: pointer;
 }
+.topImg:hover{
+    margin-top: 3px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+}
 .topIcon {
     font-size: 20px;
     margin-right: 10px;
     color: #444;
     cursor: pointer;
-
+}
+.topIcon:hover{
+    font-weight: 700;
+    font-size: 25px;
 }
 .topList{
     display: flex;
@@ -52,7 +61,13 @@
     cursor: pointer;
     font-weight: 300;
 }
+
+.topListItem:hover{
+
+    font-weight: 400;
+}
 .topSearchIcon{
+    visibility: hidden;
     font-size: 18px;
     color: #666;
     cursor: pointer;
